@@ -81,6 +81,6 @@
 
 ## 4. Delegate the work.
 
-[Work Division](Workflow%20c0a9ab21a5714336bc76c990de5844cd/Work%20Division%2082781270f73e4530b4ef478b7cd7e249.csv)
+[Work Division](Workflow/WorkDivision.csv)
 
 ## 5. Test and improve workflow over time.
