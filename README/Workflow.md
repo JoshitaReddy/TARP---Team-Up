@@ -1,6 +1,6 @@
 # Workflow
 
-![Workflow.png](Workflow%20c0a9ab21a5714336bc76c990de5844cd/Workflow.png)
+![Workflow.png](Workflow.png)
 
 ## 1. List of jobs to be done.
 
