@@ -11,3 +11,5 @@ Related work:
 [Mining Campus Big Data: Prediction of Career Choice Using Interpretable Machine Learning Method](https://doi.org/10.3390/math10081289)
 
 [https://app.litmaps.co/shared/08c0a061-b7b7-4c48-a6c2-ed6f7c20fd85](https://app.litmaps.co/shared/08c0a061-b7b7-4c48-a6c2-ed6f7c20fd85)
+
+![LITMAP for the Topic](https://github.com/JoshitaReddy/TARP---Team-Up/blob/main/README/LITMAP.JPG)
