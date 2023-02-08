@@ -4,9 +4,10 @@ Related work:
 
 1. **Investigating machine learning's capacity to enhance the prediction of career choices**
 
-[](https://doi.org/10.1111/peps.12529)
+[Investigating machine learning's capacity to enhance the prediction of career choices](https://doi.org/10.1111/peps.12529)
 
-1. **Mining Campus Big Data: Prediction of Career Choice Using Interpretable Machine Learning Method**
+
+2. **Mining Campus Big Data: Prediction of Career Choice Using Interpretable Machine Learning Method**
 
 [Mining Campus Big Data: Prediction of Career Choice Using Interpretable Machine Learning Method](https://doi.org/10.3390/math10081289)
 
