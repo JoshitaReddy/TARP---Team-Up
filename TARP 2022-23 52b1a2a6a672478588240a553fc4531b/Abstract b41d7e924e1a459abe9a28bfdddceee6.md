@@ -1,0 +1,7 @@
+# Abstract
+
+Students are faced with a more difficult decision when it comes to choose a career path in the modern world since the number of work possibilities and options are constantly increasing. A student may get guidance from their parents, friends, and educational institutions; yet, in the end, it is up to the student to choose the course of action that they will take on their own. Another factor students need to consider is to see whether the package they are offered is proportional to the skills and expertise of student. Companies might wrongly estimate the abilities of student and offer an less optimal package.
+
+![Untitled](Abstract%20b41d7e924e1a459abe9a28bfdddceee6/Untitled.png)
+
+A suitable career path for the student would be recommended by the system on the basis of their expertise in a variety of domains and subjects. This method for career prediction focuses mostly on the ability to forecast the careers of applicants interested in. We have focused our predictions in engineering and computer science due to the large numbers of emerging technologies that are changing our current world. They will be able to determine more easily in which job function the applicant should be suitable thanks to this approach.  We are also incorporating a salary prediction tool in our website. It is a handy way to get an understanding of the general salary expectance for their level of expertise so that the students get an optimum package.
