@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SalaryPrediction</title>
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Icons -->
+    <script
+      src="https://kit.fontawesome.com/5cc59075f6.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="CSS/form.css" />
+  </head>
+
+  <body>
+    <section id="title">
+      <div class="container-fluid">
+        <div class="info-title">
+          <!-- Nav Bar -->
+          <nav class="navbar navbar-expand-lg navbar-dark">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarTogglerDemo01"
+            >
+              \
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="formsalary">Salary Predictor</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="formcareer">Career Predictor</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+
+      <!-- Title -->
+    </section>
+
+    <!-- Career -->
+    <form class="form-signin" action="/formsalary" method="post">
+      <h1 class="titlenew font-weight-normal">Salary Prediction</h1>
+
+      <select class="form-control top" name="gender">
+        <option value="" disabled selected>Select your gender</option>
+        <option value="f">Female</option>
+        <option value="m">Male</option>
+      </select>
+
+      <input
+        type="text"
+        class="form-control middle"
+        name="tenthPercent"
+        min="0"
+        max="100"
+        placeholder="Enter your 10th grade percentage (Range 0-100) "
+      />
+
+      <input
+        type="text"
+        class="form-control middle"
+        name="twelvthPercent"
+        min="0"
+        max="100"
+        placeholder="Enter your 12th grade percentage (Range 0-100) "
+      />
+
+      <select class="form-control top" name="collegeTier">
+        <option value="" disabled selected>Select your college tier</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+      </select>
+
+
+      <select class="form-control top" name="degree">
+        <option value="" disabled selected>Select your degree</option>
+        <option value="B.Tech/B.E.">B.Tech/B.E.</option>
+        <option value="M.Sc. (Tech.)">M.Sc. (Tech.)</option>
+        <option value="M.Tech./M.E.">M.Tech./M.E.</option>
+        <option value="MCA">MCA</option>
+      </select>
+
+      <select class="form-control top" name="specialization">
+        <option value="" disabled selected>Select your specialization</option>
+        <option value="aeronautical engineering">aeronautical engineering</option>
+        <option value="applied electronics and instrumentation">applied electronics and instrumentation</option>
+        <option value="automobile/automotive engineering">automobile/automotive engineering</option>
+        <option value="biomedical engineering">biomedical engineering</option>
+        <option value="biotechnology">biotechnology</option>
+        <option value="ceramic engineering">ceramic engineering</option>
+        <option value="chemical engineering">chemical engineering</option>
+        <option value="civil engineering">civil engineering</option>
+        <option value="computer and communication engineering">computer and communication engineering</option>
+        <option value="computer application">computer application</option>
+        <option value="computer engineering">computer engineering</option>
+        <option value="computer networking">computer networking</option>
+        <option value="computer science & engineering">computer science & engineering</option>
+        <option value="computer science and technology">computer science and technology</option>
+        <option value="control and instrumentation engineering">control and instrumentation engineering</option>
+        <option value="electrical and power engineering">electrical and power engineering</option>
+        <option value="electrical engineering">electrical engineering</option>
+        <option value="electronics">electronics</option>
+        <option value="electronics & instrumentation eng">electronics & instrumentation eng</option>
+        <option value="electronics & telecommunications">electronics & telecommunications</option>
+        <option value="electronics and communication engineering">electronics and communication engineering</option>
+        <option value="electronics and computer engineering">electronics and computer engineering</option>
+        <option value="electronics and electrical engineering">electronics and electrical engineering</option>
+        <option value="electronics and instrumentation engineering">electronics and instrumentation engineering</option>
+        <option value="electronics engineering">electronics engineering</option>
+        <option value="embedded systems technology">embedded systems technology</option>
+        <option value="industrial & management engineering">industrial & management engineering</option>
+        <option value="industrial & production engineering">industrial & production engineering</option>
+        <option value="industrial engineering">industrial engineering</option>
+        <option value="information & communication technology">information & communication technology</option>
+        <option value="information science">information science</option>
+        <option value="information science engineering">information science engineering</option>
+        <option value="information technology">information technology</option>
+        <option value="instrumentation and control engineering">instrumentation and control engineering</option>
+        <option value="instrumentation engineering">instrumentation engineering</option>
+        <option value="mechanical & production engineering">mechanical & production engineering</option>
+        <option value="mechanical and automation">mechanical and automation</option>
+        <option value="mechanical engineering">mechanical engineering</option>
+        <option value="mechatronics">mechatronics</option>
+        <option value="metallurgical engineering">metallurgical engineering</option>
+        <option value="telecommunication engineering">telecommunication engineering</option>
+        <option value="other">other</option>
+      </select>
+
+
+      <input
+        type="text"
+        class="form-control middle"
+        name="collegeGPA"
+        placeholder="Enter your college GPA (Range 0-10) "
+      />
+      
+      <button
+        class="btn btn-lg btn-primary btn-block btn-light"
+        name="button"
+        type="submit"
+      >
+        Evaluate
+      </button>
+    </form>
+  </body>
+</html>
