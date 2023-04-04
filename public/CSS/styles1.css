@@ -1,0 +1,166 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+h1
+{
+  font-family: "Exo 2";
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+h2
+{
+  font-family: "Exo 2";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h3
+{
+  font-family: "Exo 2";
+  font-size: 1.5rem;
+
+}
+hr
+{
+  border: 2px solid grey;
+  width: 50%;
+  margin: auto;
+}
+#title
+{
+  background-color: white;
+  padding-bottom: 5%;
+  text-align: center;
+}
+.Title-line
+{
+  font-size: 6rem;
+}
+.div1
+{
+  padding-left: 5%;
+}
+.div2
+{
+  padding-top: 6%;
+  padding-right: 2%;
+}
+.tag-line
+{
+  font-size: 1.5rem;
+}
+.boyOnComp-img
+{
+  height:420px;
+  width: auto;
+}
+
+.container-fluid
+{
+   background: linear-gradient(90.09deg, #5433FF -53.53%, #20BDFF 23.2%, #A5FECB 99.92%);
+   width: 100%;
+}
+
+.navbar-brand
+{
+    font-family: 'Exo 2';
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-left: 40px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: black;
+}
+
+.navbar-dark .navbar-brand {
+    color: black;
+}
+
+.nav-item
+{
+    padding: 0 18px;
+}
+
+.nav-link
+{
+    font-size: 1.2rem;
+}
+
+#career
+{
+  text-align: left;
+  padding-left: 5%;
+  padding-bottom: 5%;
+  padding-right: 5%;
+}
+#salary
+{
+  text-align: left;
+  padding-left: 5%;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  padding-right: 5%;
+}
+#about-us
+{
+  text-align: center;
+  padding-left: 5%;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  padding-right: 5%;
+}
+/* .div-home-1
+{
+  display: inline-block;
+  width: 40%;
+}
+.div-home-2
+{
+  display: inline-block;
+  width: 45%;
+} */
+.btnEval
+{
+  background: linear-gradient(90.1deg, #5433FF -39.1%, #20BDFF 30.41%, #A5FECB 99.91%);
+  border-radius: 2px;
+  height: 50px;
+  width: 200px;
+}
+.ai-img
+{
+  height: 200px;
+  width: auto;
+}
+.graph-img
+{
+  height: 300px;
+  width: auto;
+}
+.girl-img
+{
+  height: 250px;
+  width: auto;
+}
+
+.pride
+{
+  margin-top: 5%;
+  text-align: center;
+  padding: 5%;
+  background: linear-gradient(90.09deg, #5433FF -53.53%, #20BDFF 23.2%, #A5FECB 99.92%);
+}
+#footer
+{
+  text-align: center;
+  padding: 1%;
+}
+.footer-icon
+{
+  padding: 1%;
+  padding-bottom: 1.5%;
+}
