@@ -16,6 +16,8 @@
 
 [Research gap identified](TARP%202022-23%2052b1a2a6a672478588240a553fc4531b/Research%20gap%20identified%2064bde56030aa486ba354e18d649d4e12.md)
 
+[Novelty of the Project](TARP%202022-23%2052b1a2a6a672478588240a553fc4531b/Novelty.md)
+
 ### GitHub Repository
 
 [https://github.com/JoshitaReddy/TARP---Team-Up](https://github.com/JoshitaReddy/TARP---Team-Up)
