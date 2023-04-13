@@ -1,5 +1,5 @@
 # Novelty of the Project
-This project is a novel and innovative application of machine learning algorithms in career development and financial planning. The project leverages the power of data analytics and predictive modeling to provide individuals with valuable insights into their future career prospects and potential earning potential.</br>
+This project is a novel and innovative application of machine learning algorithms in career development and financial planning. The project leverages the power of data analytics and predictive modeling to provide individuals with valuable insights into their future career prospects and potential earning.</br>
 
 Unlike traditional career counseling services that rely on subjective assessments and personal biases, this project uses data-driven approaches to provide more objective and accurate predictions. By analyzing large sets of historical employment and salary data, the ML models can identify patterns and trends that are not immediately apparent to human experts.
 
