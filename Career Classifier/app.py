@@ -4,18 +4,23 @@ Created on Fri Mar 31 22:55:27 2023
 
 @author: joshi
 """
+
+#Importing Libraries
 import numpy as np
 from flask import Flask, request, jsonify
 import pickle
 
+#Loading the Model
 model = pickle.load(open('model.pkl', 'rb'))
 app = Flask(__name__)
 
+#Jobs
 jobs = ['Data Analyst','Software Developer','Software Tester','Technical Support','Technical Writer','UI/UX Designer','Web Developer']
 
+#Creating a Flask API
 @app.route('/',methods=['GET'])
 def index():
-    sslc=float(request.args['sslc'])
+    sslc=float(request.args['sslc']) 
     hsc=float(request.args['hsc'])
     cgpa=float(request.args['cgpa'])
     school_type=float(request.args['school_type'])
@@ -45,8 +50,8 @@ def index():
            abstractthink_skill, design_skill, first_computer, first_program, lab_programs, ds_coding,
            technology_used, sympos_attend, sympos_won, extracurricular, learning_style,
            college_bench, clg_teachers_know, college_performence, college_skills]).reshape(1,-1)
-    pred=model.predict(test)
-    return jsonify(prediction=str(jobs[pred[0]]))
+    pred=model.predict(test)   # Predicting Result
+    return jsonify(prediction=str(jobs[pred[0]])) # Returning the Result
 
 if __name__ == "__main__":
     app.run(debug=True)
