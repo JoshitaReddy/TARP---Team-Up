@@ -27,3 +27,7 @@
 ### Slack Workspace
 
 [Slack](http://teamup-tarp.slack.com/)
+
+### Video Demo Link
+
+[Recorded Video Demo](https://drive.google.com/file/d/11MiTdmMltzb0P0E4ZLkVR-YI_Tjiv3Vu/view?usp=share_link)
