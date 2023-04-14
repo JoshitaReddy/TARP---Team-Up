@@ -18,6 +18,8 @@
 
 [Novelty of the Project](TARP%202022-23%2052b1a2a6a672478588240a553fc4531b/Novelty.md)
 
+[Results & Discussions](TARP%202022-23%2052b1a2a6a672478588240a553fc4531b/Results.md)
+
 ### GitHub Repository
 
 [https://github.com/JoshitaReddy/TARP---Team-Up](https://github.com/JoshitaReddy/TARP---Team-Up)
