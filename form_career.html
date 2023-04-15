@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- Set the character encoding and viewport -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Set the title of the webpage -->
     <title>CareerPrediction</title>
 
+    <!-- Import the Bootstrap CSS and JavaScript -->
     <!-- Bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
@@ -19,6 +23,7 @@
       crossorigin="anonymous"
     ></script>
 
+    <!-- Import the Google fonts and Icons -->
     <!-- Google fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Ubuntu:wght@300&display=swap"
@@ -33,14 +38,16 @@
       src="https://kit.fontawesome.com/5cc59075f6.js"
       crossorigin="anonymous"
     ></script>
+    <!-- Import the custom CSS for the form -->
     <link rel="stylesheet" href="CSS/form.css" />
   </head>
 
   <body>
+    <!-- Create a section for the title -->
     <section id="title">
       <div class="container-fluid">
         <div class="info-title">
-          <!-- Nav Bar -->
+          <!-- Create a navigation bar using Bootstrap -->
           <nav class="navbar navbar-expand-lg navbar-dark">
             <button
               class="navbar-toggler"
@@ -53,6 +60,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
               <ul class="navbar-nav ms-auto">
+                <!-- Create links to other pages of the website -->
                 <li class="nav-item">
                   <a class="nav-link" href="/">Home</a>
                 </li>
@@ -71,10 +79,12 @@
       <!-- Title -->
     </section>
 
-    <!-- Career -->
+    <!-- Create a form for the Career Predictor -->
     <form class="form-signin" action="/formcareer" method="post">
       <h1 class="titlenew font-weight-normal">Career Prediction</h1>
 
+      <!-- Create input fields for the user to enter data -->
+      <!--Enter 12th standard marks-->
       <input
         type="text"
         class="form-control middle"
@@ -82,6 +92,7 @@
         placeholder="What is your 12th standard marks?"
       />
 
+      <!--Enter 10th standard marks-->
       <input
         type="text"
         class="form-control middle"
@@ -89,6 +100,7 @@
         placeholder="What is your 10th standard marks?"
       />
 
+      <!--Enter CGPA-->
       <input
         type="text"
         class="form-control middle"
@@ -96,6 +108,7 @@
         placeholder="What is your CGPA?"
       />
 
+      <!--Enter the type of school-->
       <select class="form-control top" name="school_type">
         <option value="" disabled selected>What is your school type</option>
         <option value="0">State schools</option>
@@ -104,6 +117,7 @@
         <option value="3">Private schools</option>
       </select>
 
+      <!--Enter the number of miniprojects-->
       <input
         type="text"
         class="form-control middle"
@@ -111,6 +125,7 @@
         placeholder="How many number of miniprojects have you done?"
       />
 
+      <!--Enter the number of projects-->
       <input
         type="text"
         class="form-control middle"
@@ -118,6 +133,7 @@
         placeholder="How many projects have you done?"
       />
 
+      <!--Enter the level of core subject skill-->
       <input
         type="text"
         class="form-control middle"
@@ -125,6 +141,7 @@
         placeholder="What is your level of core subject skill"
       />
 
+      <!--Enter the level of aptitude skill-->
       <input
         type="text"
         class="form-control middle"
@@ -132,6 +149,7 @@
         placeholder="What is your level of aptitude skill"
       />
 
+      <!--Enter the level of problem solving skill-->
       <input
         type="text"
         class="form-control middle"
@@ -139,6 +157,7 @@
         placeholder="What is your level of problem solving"
       />
 
+      <!--Enter the level of programming skill-->
       <input
         type="text"
         class="form-control middle"
@@ -146,6 +165,7 @@
         placeholder="What is your level of Java programming skill"
       />
 
+      <!--Enter the level of abstract thinking skill-->
       <input
         type="text"
         class="form-control middle"
@@ -153,6 +173,7 @@
         placeholder="What is your level of abstract thinking skill"
       />
 
+      <!--Enter the level of design skill-->
       <input
         type="text"
         class="form-control middle"
@@ -160,6 +181,7 @@
         placeholder="What is your level of design skill"
       />
 
+      <!--Enter leaderboard score on leetcode-->
       <input
         type="text"
         class="form-control middle"
@@ -167,6 +189,7 @@
         placeholder="What is your leaderboard score on leetcode?"
       />
 
+      <!--Enter year started programming-->
       <input
         type="text"
         class="form-control middle"
@@ -174,6 +197,7 @@
         placeholder="Which year did you start programming?"
       />
 
+      <!--Enter the number technical events you attended?-->
       <input
         type="text"
         class="form-control middle"
@@ -181,6 +205,7 @@
         placeholder="How many technical events have you attended?"
       />
 
+      <!--Enter the level of ds coding-->
       <input
         type="text"
         class="form-control middle"
@@ -188,6 +213,7 @@
         placeholder="What is your level of ds coding"
       />
 
+      <!--Enter the number of technologies you know-->
       <input
         type="text"
         class="form-control middle"
@@ -195,6 +221,7 @@
         placeholder="How many technologies do you know?"
       />
 
+      <!--Enter the number of clubs you are in-->
       <input
         type="text"
         class="form-control middle"
@@ -202,6 +229,7 @@
         placeholder="How many clubs are you in?"
       />
 
+      <!--Enter the number of hackathons you have won-->
       <input
         type="text"
         class="form-control middle"
@@ -209,6 +237,7 @@
         placeholder="How many Hackathons have you won"
       />
 
+      <!--Enter the number of extracurricular you have participated-->
       <input
         type="text"
         class="form-control middle"
@@ -216,6 +245,7 @@
         placeholder="Do you take part in extracurricular"
       />
 
+      <!--Enter the number of internships you have done-->
       <input
         type="text"
         class="form-control middle"
@@ -223,6 +253,7 @@
         placeholder="How many internships have you done?"
       />
 
+      <!--Enter the number of certifications you have done-->
       <input
         type="text"
         class="form-control middle"
@@ -230,13 +261,15 @@
         placeholder="How many certifications have you done?"
       />
 
+      <!--Enter the number of letters of recommendation you have-->
       <input
         type="text"
         class="form-control middle"
         name="clg_teachers_know"
         placeholder="How many letters of recommendation do you have?"
       />
-      
+
+      <!--Enter the number of backs you have-->
       <input
         type="text"
         class="form-control middle"
@@ -244,6 +277,7 @@
         placeholder="How many backs do you have?"
       />
 
+      <!--Enter your level of communication skills-->
       <input
         type="text"
         class="form-control middle"
@@ -251,6 +285,7 @@
         placeholder="What is your level of communication skills"
       />
       
+      <!-- Create a button to submit the form -->
       <button
         class="btn btn-lg btn-primary btn-block btn-light"
         name="button"

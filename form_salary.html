@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- Set the character encoding and viewport -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Set the title of the webpage -->
     <title>SalaryPrediction</title>
 
+    <!-- Import the Bootstrap CSS and JavaScript -->
     <!-- Bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
@@ -19,6 +23,7 @@
       crossorigin="anonymous"
     ></script>
 
+    <!-- Import the Google fonts and Icons -->
     <!-- Google fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Ubuntu:wght@300&display=swap"
@@ -33,6 +38,8 @@
       src="https://kit.fontawesome.com/5cc59075f6.js"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Import the custom CSS for the form -->
     <link rel="stylesheet" href="CSS/form.css" />
   </head>
 
@@ -72,6 +79,7 @@
     </section>
 
     <!-- Career -->
+    <!-- Form inputs-->
     <form class="form-signin" action="/formsalary" method="post">
       <h1 class="titlenew font-weight-normal">Salary Prediction</h1>
 
@@ -81,6 +89,7 @@
         <option value="m">Male</option>
       </select>
 
+      <!--Enter 10th grade percentage-->
       <input
         type="text"
         class="form-control middle"
@@ -90,6 +99,7 @@
         placeholder="Enter your 10th grade percentage (Range 0-100) "
       />
 
+      <!--Enter 12th grade percentage-->
       <input
         type="text"
         class="form-control middle"
@@ -99,13 +109,14 @@
         placeholder="Enter your 12th grade percentage (Range 0-100) "
       />
 
+      <!--Enter college tier-->
       <select class="form-control top" name="collegeTier">
         <option value="" disabled selected>Select your college tier</option>
         <option value="1">1</option>
         <option value="2">2</option>
       </select>
 
-
+      <!--Enter college degree-->
       <select class="form-control top" name="degree">
         <option value="" disabled selected>Select your degree</option>
         <option value="B.Tech/B.E.">B.Tech/B.E.</option>
@@ -114,6 +125,7 @@
         <option value="MCA">MCA</option>
       </select>
 
+      <!--Enter college specialization-->
       <select class="form-control top" name="specialization">
         <option value="" disabled selected>Select your specialization</option>
         <option value="aeronautical engineering">aeronautical engineering</option>
@@ -160,14 +172,15 @@
         <option value="other">other</option>
       </select>
 
-
+      <!--Enter college GPA-->
       <input
         type="text"
         class="form-control middle"
         name="collegeGPA"
         placeholder="Enter your college GPA (Range 0-10) "
       />
-      
+
+      <!-- Create a button to submit the form -->
       <button
         class="btn btn-lg btn-primary btn-block btn-light"
         name="button"

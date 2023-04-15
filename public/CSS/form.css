@@ -65,6 +65,7 @@ hr
    width: 100%;
 }
 
+/* CSS for the navbar */
 .navbar-brand
 {
     font-family: 'Exo 2';
@@ -72,20 +73,16 @@ hr
     font-weight: bold;
     padding-left: 40px;
 }
-
 .navbar-dark .navbar-nav .nav-link {
     color: black;
 }
-
 .navbar-dark .navbar-brand {
     color: black;
 }
-
 .nav-item
 {
     padding: 0 28px;
 }
-
 .nav-link
 {
     font-size: 1.2rem;
@@ -103,10 +100,7 @@ hr
     
 }
 
-
-
-
-
+/* CSS for the form */
 .form-signin {
   width: 100%;
   /* max-width: 1100px; */
@@ -192,12 +186,6 @@ select{
     /* margin: auto 0 auto 0; */
 }
 
-
-
-
-
-
-
 #career
 {
   text-align: left;
@@ -221,16 +209,6 @@ select{
   padding-top: 5%;
   padding-right: 5%;
 }
-/* .div-home-1
-{
-  display: inline-block;
-  width: 40%;
-}
-.div-home-2
-{
-  display: inline-block;
-  width: 45%;
-} */
 .btnEval
 {
   background: linear-gradient(90.1deg, #5433FF -39.1%, #20BDFF 30.41%, #A5FECB 99.91%);

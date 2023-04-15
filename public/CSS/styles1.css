@@ -1,3 +1,4 @@
+/*css for home page*/
 html,body
 {
     width: 100%;
@@ -6,6 +7,7 @@ html,body
     padding: 0px;
     overflow-x: hidden;
 }
+/*css for h1,h2,h3,hr*/
 h1
 {
   font-family: "Exo 2";
@@ -30,6 +32,8 @@ hr
   width: 50%;
   margin: auto;
 }
+
+/* Set the text alignment and padding for the title section */
 #title
 {
   background-color: white;
@@ -58,13 +62,13 @@ hr
   height:420px;
   width: auto;
 }
-
 .container-fluid
 {
    background: linear-gradient(90.09deg, #5433FF -53.53%, #20BDFF 23.2%, #A5FECB 99.92%);
    width: 100%;
 }
 
+/* Design the navbar */
 .navbar-brand
 {
     font-family: 'Exo 2';
@@ -72,7 +76,6 @@ hr
     font-weight: bold;
     padding-left: 40px;
 }
-
 .navbar-dark .navbar-nav .nav-link {
     color: black;
 }
@@ -91,6 +94,7 @@ hr
     font-size: 1.2rem;
 }
 
+/* Set the text alignment and padding for the career section */
 #career
 {
   text-align: left;
@@ -98,6 +102,8 @@ hr
   padding-bottom: 5%;
   padding-right: 5%;
 }
+
+/* Set the text alignment and padding for the salary section */
 #salary
 {
   text-align: left;
@@ -106,6 +112,8 @@ hr
   padding-top: 5%;
   padding-right: 5%;
 }
+
+/* Set the text alignment and padding for the about us section */
 #about-us
 {
   text-align: center;
@@ -114,16 +122,8 @@ hr
   padding-top: 5%;
   padding-right: 5%;
 }
-/* .div-home-1
-{
-  display: inline-block;
-  width: 40%;
-}
-.div-home-2
-{
-  display: inline-block;
-  width: 45%;
-} */
+
+/* Design the button */
 .btnEval
 {
   background: linear-gradient(90.1deg, #5433FF -39.1%, #20BDFF 30.41%, #A5FECB 99.91%);
@@ -131,6 +131,8 @@ hr
   height: 50px;
   width: 200px;
 }
+
+/* Design the images */
 .ai-img
 {
   height: 200px;
@@ -146,7 +148,6 @@ hr
   height: 250px;
   width: auto;
 }
-
 .pride
 {
   margin-top: 5%;
@@ -154,6 +155,8 @@ hr
   padding: 5%;
   background: linear-gradient(90.09deg, #5433FF -53.53%, #20BDFF 23.2%, #A5FECB 99.92%);
 }
+
+/* Design the footer */
 #footer
 {
   text-align: center;
